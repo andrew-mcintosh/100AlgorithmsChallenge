@@ -1,7 +1,7 @@
 function addBorder(picture: string[]): string[] {
-	const sizeOfWall = picture[0].length + 2;
+	const lengthOfWall = picture[0].length + 2;
 	let wall = '';
-	for (let i = 0; i < sizeOfWall; i++) {
+	for (let i = 0; i < lengthOfWall; i++) {
 		wall = wall.concat('*');
 	}
 	picture.unshift(wall);
